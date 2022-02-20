@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/vazir.eot") format("eot");
+    src: url("../fonts/vazir.ttf") format("ttf");
+    src: url("../fonts/vazir.woff") format("woff");
+    src: url("../fonts/vazir.woff2") format("woff2");}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;}
+
+body{
+    direction: rtl;
+    font-family: vazir;}
+
+.container{
+    width: 80%;
+    margin: auto;}
+
+.row{
+    display: flex;}
+
+#register{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/back.svg");
+    background-size: cover;}
+
+.register-page{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;}
+
+.register-page .register{
+    width: 64%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    border-radius: 0 25px 25px 0 ;
+    -webkit-border-radius: 0 25px 25px 0 ;
+    -moz-border-radius: 0 25px 25px 0 ;
+    -ms-border-radius: 0 25px 25px 0 ;
+    -o-border-radius: 0 25px 25px 0 ;}
+
+.register-page .register h1{
+    color: #3bb397;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px 0;}
+
+.register-page .register ul{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;}
+
+.register-page .register ul li{
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;}
+
+.register-page .register ul li:nth-child(1) a svg:hover{
+    color: #fff;
+    background-color: rgb(0,89,255);}
+
+.register-page .register ul li:nth-child(2) a svg:hover{
+    color: #fff;
+    background-color: rgb(255,30,0);}
+
+.register-page .register ul li:nth-child(3) a svg:hover{
+    color: #fff;
+    background-color: rgb(0,153,255);}
+
+.register-page .register ul a{
+    color: #222;}
+
+.register-page .register ul a svg{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(39,39,39);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;}
+
+.register-page .register h5{
+    margin: 30px 0;
+    color: #777;}
+
+.register-page .register form{
+    margin: 20px 0;
+    width: 45%;
+    text-align: center;}
+
+.register-page .register form .form-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    color: #cacaca;}
+
+.register-page .register form .form-item input{
+    width: 95%;
+    padding: 10px;
+    font-family: vazir;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    transition: all .3s ease-in-out ;
+    -webkit-transition: all .3s ease-in-out ;
+    -moz-transition: all .3s ease-in-out ;
+    -ms-transition: all .3s ease-in-out ;
+    -o-transition: all .3s ease-in-out ;}
+
+.register-page .register form .form-item input:focus{
+    border-bottom: 1px solid #575656;}
+
+::placeholder{
+    color: #cacaca;}
+
+.register-page .register form input[type='submit']{
+    padding: 10px;
+    font-family: vazir;
+    width: 45%;
+    background-color: #3bb397;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: none;
+    outline: none;
+    border: 1px solid #3bb397;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;}
+
+.register-page .register form input[type='submit']:hover{
+    background-color: #fff;
+    color: #3bb397;
+    border: 1px solid #3bb397;}
+
+.register-page .auth-login{
+    width: 35%;
+    height: 100%;
+    background: url("../images/2.svg");
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 0 0 25px ;
+    -webkit-border-radius: 25px 0 0 25px ;
+    -moz-border-radius: 25px 0 0 25px ;
+    -ms-border-radius: 25px 0 0 25px ;
+    -o-border-radius: 25px 0 0 25px ;} 
+
+.register-page .auth-login img{
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;}
+
+.register-page .auth-login .login-content{
+    color: #fff;
+    text-align: center;}
+
+.register-page .auth-login .login-content h1{
+    margin-bottom: 10px;}
+
+.register-page .auth-login .login-content p{
+    margin: 5px;}
+
+.register-page .auth-login .login-content button{
+    width: 150px;
+    font-family: vazir;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 16px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .3s ease-in-out  ;
+    -webkit-transition: all .3s ease-in-out  ;
+    -moz-transition: all .3s ease-in-out  ;
+    -ms-transition: all .3s ease-in-out  ;
+    -o-transition: all .3s ease-in-out  ;
+    text-decoration: none;}
+
+.register-page .auth-login .login-content button a{
+    text-decoration: none;
+    color: #fff;}
+
+.register-page .auth-login .login-content button:hover{
+    background-color: #fff;
+    color: #3bb397;
+    border: 2px solid #52d1b4;}
+
+.register-page .auth-login .login-content button:hover a{
+    color: #3bb397;}
+
+
+
